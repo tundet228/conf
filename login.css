@@ -1,0 +1,125 @@
+body {
+    background-image: url(jpg/pay.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+#navP {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px auto;
+}
+
+#wrpper, #wrpper2, #reset-box, #divP {
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input, button {
+    max-width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    width: 45%;
+    margin: 5px;
+}
+
+#navP button {
+    padding: 10px;
+    color: blue;
+    background-color: aquamarine;
+    border: groove;
+    border-radius: 20px;
+    margin: 10px;
+    cursor: pointer;
+    flex-direction: column;
+}
+
+.vcard, #mcard, #pcard {
+    max-width: 100%;
+    height: auto;
+}
+
+#navP button:hover {
+    opacity: 0.5;
+}
+
+#wrpper {
+    background-color: blue;
+    display: inline-block;
+    align-content: center;
+    margin: auto;
+    padding: 50px;
+    border-radius: 20px;
+    border: groove;
+}
+
+#loginBtn, #loginBtn2 {
+    color: azure;
+    background-color: rgb(41, 50, 177);
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    border: groove;
+    border-color: rgb(0, 255, 255);
+    cursor: pointer;
+    width: 100%;
+}
+
+#loginBtn:hover, #loginBtn2:hover {
+    opacity: 0.5;
+}
+
+#loginBtn:active, #loginBtn2:active {
+    color: rgb(41, 50, 177);
+    background-color: azure;
+}
+
+.ibn {
+    color: hsl(249, 100%, 50%);
+    background-color: #ff006a;
+    font-size: 30px;
+    float: right;
+    padding: 30px;
+    border-radius: 100px;
+    margin-right: 5%;
+    display: inline;
+}
+
+#company {
+    color: aqua;
+    background-color: blue;
+    display: inline;
+    padding: 10px;
+    border: none;
+    border-radius: 40px;
+    font-weight: bolder;
+    font-size: 50px;
+    font-style: oblique;
+    font-family: sans-serif;
+    margin-top: 2%;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    #company {
+        font-size: 30px;
+    }
+    #navP button {
+        width: 100%;
+    }
+    .payhere {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    #mySubmit, #mySubmitt {
+        width: 100%;
+        margin-left: 0;
+    }
+}

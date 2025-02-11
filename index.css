@@ -1,0 +1,124 @@
+body{
+    background-image: url(jpg/back2.jpg);
+    align-content: normal;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+#name {
+    color: #edebf0;
+    font-size: 30px;
+    text-align: justify;
+    margin-left: 3%;
+}
+#myText {
+    color: #f8f8fc;
+    background-color: #272626;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+    margin-left: 3%;
+    width: 90%;
+}
+
+#head{
+    color: green;
+    font-size: 25px;
+    margin-top: 5px;
+    margin-left: 3%;
+}
+.ibn{
+    color: hsl(249, 100%, 50%);
+    background-color: #ff006a;
+    font-size: 30px;
+    padding: 15px;
+    border-radius: 50px;
+    margin-right: 5%;
+}
+#company{
+    color: aqua;
+    background-color: blue;
+    display: inline-block;
+    padding: 10px;
+    border: none;
+    border-radius: 40px;
+    font-weight: bolder;
+    font-size: 40px;
+    font-style: oblique;
+    font-family: sans-serif;
+    margin-top: 2%;
+    text-align: center;
+}
+
+#navP{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px auto;
+}
+
+#navP button{
+    padding: 10px;
+    color: blue;
+    background-color: aquamarine;
+    border: groove;
+    border-radius: 20px;
+    margin: 5px;
+    width: 45%;
+}
+
+#navP button:hover{
+    opacity: 0.5;
+}
+
+.vcard, #mcard, #pcard {
+    max-width: 100%;
+    height: auto;
+}
+
+#wrpper2, #wrpper, #divP {
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input, button {
+    width: 100%;
+    max-width: 100%;
+    padding: 12px;
+    font-size: 16px;
+}
+
+#makeP {
+    background-color: aliceblue;
+    opacity: 0.9;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    #company {
+        font-size: 30px;
+    }
+    #navP button {
+        width: 100%;
+    }
+    .payhere {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    #mySubmit, #mySubmitt {
+        width: 100%;
+        margin-left: 0;
+    }
+}
